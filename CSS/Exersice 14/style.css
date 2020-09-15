@@ -1,0 +1,21 @@
+#divOne{
+    background-color: red;
+    padding:20px;
+    display: inline-block;
+    border: 1px solid orange;
+    margin-right:20px;
+}
+#divTwo{
+    background-color: blue;
+    padding: 30px 10px;
+    display:inline-block;
+    border:4px solid green;
+}
+#divThree{
+    width: 50px;
+    height: 50px;
+    background-color: #00aced;
+}
+#divFour{
+    display: none;
+}
