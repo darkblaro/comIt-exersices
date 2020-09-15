@@ -1,0 +1,41 @@
+<!DOCTYPE html> <!--File HTML5-->
+
+//HTML Table
+
+<table> <!--Start new talbe. "border="1" - shows borders-->
+	<thead> <!--Head table rows. Text will be displayed as bold-->
+		<tr> <!--Opens table row-->
+			<th>...</th> <!--Head table cols-->
+			<th>...</th>
+		</tr>
+	<tbody>
+		<tr> <!--new line-->
+			<td>...</td> <!--new entry-->
+		</tr>
+	</tbody>
+
+//Lists
+
+//1. Ordered List
+<ol> <!--Ordered list-->
+	<li>...</li> <!--List Item-->
+</ol>
+
+//2. Unordered List
+<ul>
+	<li>...</li>
+</ul>
+
+//Definition List
+<dl> <!--Open definition list-->
+	<dt>Item1</dt> <!--Add new definition Item-->
+		<dd>...</dd> <--Definition Details-->
+</dl>
+
+//Links
+<a href="" target="_blank">Any text</a>
+<!--a means new link. href - gets page address. target - says where to open new page-->
+
+//Two types of buttons
+<button name="" type="submit">Submit</button> //Simple button
+<a href="#" name="" type="submit">Submit</a> //Button+link
