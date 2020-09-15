@@ -1,0 +1,12 @@
+header{
+    text-align: center;
+}
+main p{
+    font-size: 18px;
+}
+nav a{
+    color:red;
+}
+.navLink{
+    color:#00aced;
+}
