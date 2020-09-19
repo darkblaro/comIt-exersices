@@ -7,25 +7,31 @@
     <link rel="stylesheet" type="text/css" href="style.css"/>
 </head>
 <body>
-    <header>
-        <img src="https://images-na.ssl-images-amazon.com/images/M/MV5BMTY0NTY5OTI2MF5BMl5BanBnXkFtZTgwNDkzMzIxMzE@._V1_UY256_CR6,0,172,256_AL_.jpg" alt="avatar"/>
-        <h2>Roman's Portfolio</h2>
-        <nav>
-            <a href="index.html">Home |</a>
-            <a href="about.html">About |</a>
-            <a href="contacts.html">Contacts </a>
-        </nav>
-    </header>
-    <hr />
-    <p>
-        Welcome everybody!<br />
-        This is my personal portfolio. Click on "About" to learn more about me. Click no "Contacts" to contact me directly.<br/>
-    </p>
-        <form method="GET" action="http://www.google.ca/search" target="_blank">
-        Here you can use Google Search<br />
-        <label>Search: </label>
-        <input type="text" name="q"/>
-        <button>Searh</button>
-    </form>
+    <div class="container">
+        <header>
+            <img src="https://images-na.ssl-images-amazon.com/images/M/MV5BMTY0NTY5OTI2MF5BMl5BanBnXkFtZTgwNDkzMzIxMzE@._V1_UY256_CR6,0,172,256_AL_.jpg" alt="avatar"/>
+            <h2>Roman's Portfolio</h2>
+            <nav class="flex-nav">
+                <ul>
+                    <li><a class="navLink" href="index.html">Home</a></li>
+                    <li><a class="navLink" href="about.html">About</a></li>
+                    <li><a class="navLink" href="contacts.html">Contacts</a></li>
+                </ul> 
+            </nav>
+        </header>
+        <main>
+            <p>
+                <span style="font-weight: 600;">Welcome everybody!</span><br />
+                This is my personal portfolio. Click on "About" to learn more about me. Click no "Contacts" to contact me directly.<br/>
+            </p>
+            <div class="form-container">
+                Here you can use Google Search<br />
+                <form method="GET" action="http://www.google.ca/search" target="_blank">
+                    <input type="text" placeholder="Search" name="q"/>
+                    <button><img src="mag_glass.png" alt="search_button" style="width:20px; height:20px;"/></button>
+                </form>
+            </div>
+        </main>
+    </div>
 </body>
 </html>
