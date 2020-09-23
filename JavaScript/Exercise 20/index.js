@@ -1,3 +1,5 @@
+"use strict";
+
 let age=36;
 let firstName="Roman";
 let courseCompleted=false;

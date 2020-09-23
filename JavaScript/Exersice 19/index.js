@@ -1,3 +1,5 @@
+"use strict";
+
 const monthOfBirth="July";
 const firstName="Roman";
 const lastName="Blagovestny";
