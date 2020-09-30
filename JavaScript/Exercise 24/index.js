@@ -4,7 +4,7 @@ for(let i=1;i<=1000;i++)
 {
     if(sum>=400)
         break;
-    sum+=i+1;
+    sum++;
 }
 console.log(sum);
 
