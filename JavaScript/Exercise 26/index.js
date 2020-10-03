@@ -33,7 +33,7 @@ evenNumber;
 evenNumber;
 
 let fibonacci=function(steps){
-    let num1=0, num2=1, sum, s="0 1 ";  
+    let num1=0, num2=1, sum=0, s="0 1 ";  
     for (let i = 0; i < steps; i++)  
     { 
         sum=num1+num2; 
@@ -49,8 +49,7 @@ let showName=function(name){
     let myName="";
     for(let i=0;i<name.length+4;i++)
         myName+="=";
-    myName+="\n";
-    myName+=`= ${name} =\n`;
+    myName+=`\n= ${name} =\n`;
     for(let k=0;k<name.length+4;k++)
         myName+="="
     console.log(myName);
