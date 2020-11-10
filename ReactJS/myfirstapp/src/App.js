@@ -1,25 +1,17 @@
-import logo from './logo.svg';
 import './App.css';
+import {Student,IStudent} from './student';
 
 function App() {
+  const students:IStudent[]=[{name:"Roman", age:1,city:"Winnipeg"},
+                {name:"John", age:2, city:"None"},
+                {name:"Samantha", age:3}];
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+        students.map(student=>(
+          <div>
+            <Student name={student.name} age={student.age} city={student.city}/>
+          </div>
+        ))
+  )
 }
 
 export default App;

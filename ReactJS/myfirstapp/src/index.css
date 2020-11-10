@@ -11,3 +11,17 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+.students{
+  display: flex;
+  flex-direction: column;
+  margin:10px;
+}
+.stud{
+  font-weight: 100;
+  display: flex;
+  flex-direction: column;
+}
+.stud span{
+  font-weight: 700;
+  
+}
