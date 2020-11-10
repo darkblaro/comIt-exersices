@@ -11,12 +11,15 @@ export interface StudentProps{
     isTest:boolean;
 }
 
-const Student:FunctionComponent<IStudent>=(props)=><>
-    <div>Name: {props.name}</div>
-    <div>Age: {props.age}</div>
-    <div>City: {props.city}</div>
-    <div>isTest: {props}</div>
-</>
+const Student:FunctionComponent<StudentProps>=(props)=>{
+return(
+    <div>
+        <div>Name: {props.name}</div>
+        <div>Age: {props.age}</div>
+        <div>City: {props.city}</div>
+        <div>isTest: {props}</div>
+    </div>);
+}
 
 Student.defaultProps={
     city:'winnipeg'
